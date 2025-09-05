@@ -1,33 +1,71 @@
 import { Title } from "../component/Title";
 
-export default function Fourteen() {
+export default function Sixteen() {
   const code = `<head>
   <style>
     .h2 {
       text-align: center;
     }
-    .container {
+    .container1 {
       display: flex;
-      gap: 10px;
-      justify-content: center;
+      background: blue;
     }
-    .box {
-      width: 100px;
-      height: 80px;
-      background: lightgreen;
+    p {
+      border: 1px solid black;
+      text-align: center;
+      width: 50px;
+      padding: 4px;
+      background: white;
+    }
+    .container2 {
       display: flex;
+      background: red;
+      justify-content: center;
+      gap: 4px;
+    }
+    .container3 {
+      display: flex;
+      background: purple;
+      height: 80px;
       justify-content: center;
       align-items: center;
-      border-radius: 6px;
+      gap: 4px;
     }
+    .halfdiv {
+      display: flex;
+      height: 100px;
+    }
+    .yellow {
+      background: yellow;
+      width: 100%;
+    }
+    .green {
+      background: green;
+      width: 100%;
+}
+
   </style>
 </head>
 <body>
   <h2>Flexbox Layout</h2>
-  <div class="container">
-    <div class="box">Box 1</div>
-    <div class="box">Box 2</div>
-    <div class="box">Box 3</div>
+  <div class="container1">
+    <p>Item 1</p>
+    <p>Item 2</p>
+    <p>Item 3</p>
+  </div>
+  <div class="container2">
+    <p>Item 1</p>
+    <p>Item 2</p>
+    <p>Item 3</p>
+  </div>
+  <div class="container3">
+    <p>Item 1</p>
+    <p>Item 2</p>
+    <p>Item 3</p>
+  </div>
+  <div class="halfdiv">
+    <div class="yellow"></div>
+    <div class="green"></div>
   </div>
 </body>`;
 
