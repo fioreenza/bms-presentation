@@ -32,7 +32,7 @@ export default function Fifteen() {
     <div className="h-full flex flex-col justify-center items-center px-10 space-y-6">
       <Title size="3xl">Styling CSS</Title>
 
-      <div className="flex gap-6 w-full h-[500px] pb-20">
+      <div className="flex gap-6 w-full  pb-20">
         {/* KODE */}
         <pre className="bg-gray-900 text-green-200 p-6 w-full rounded-xl text-sm overflow-y-scroll">
           <code>{code}</code>

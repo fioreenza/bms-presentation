@@ -14,9 +14,9 @@ export default function Eleven() {
     <div className="h-full flex flex-col justify-center items-center px-10 space-y-6">
       <Title size="3xl">Form HTML</Title>
 
-      <div className="flex gap-6 w-full h-fit">
+      <div className="flex flex-col gap-6 w-full h-full">
         {/* KODE */}
-        <pre className="bg-gray-900 text-green-200 p-6 w-full rounded-xl text-[15px]">
+        <pre className="bg-gray-900 text-green-200 p-6 w-full rounded-xl text-md">
           <code>{code}</code>
         </pre>
 

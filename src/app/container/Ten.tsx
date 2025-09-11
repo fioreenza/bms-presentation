@@ -10,6 +10,8 @@ export default function Nine() {
 <p>Ini paragraf pertama saya.</p>
 <a href="https://example.com">Kunjungi Website</a>
 <img src="https://placehold.co/60x60" alt="Contoh" />
+<div> Ini adalah sebuah div. </div>
+<span> Ini adalah sebuah span. </span>
 `;
 
   return (
@@ -18,7 +20,7 @@ export default function Nine() {
 
       <div className="flex gap-6 w-full h-full">
         {/* KODE */}
-        <pre className="bg-gray-900 text-green-200 p-6 w-full rounded-xl text-[15px]">
+        <pre className="bg-gray-900 text-green-200 p-6 w-full rounded-xl text-lg">
           <code>{code}</code>
         </pre>
 

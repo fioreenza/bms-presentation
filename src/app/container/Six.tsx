@@ -11,34 +11,28 @@ export default function Six() {
         <table className="min-w-full border border-gray-300 divide-y text-left">
           <thead className="bg-blue-100 font-sans">
             <tr>
-              <th className="px-6 py-3 font-semibold text-gray-700">Kriteria</th>
               <th className="px-6 py-3 font-semibold text-gray-700">Web Statis</th>
               <th className="px-6 py-3 font-semibold text-gray-700">Web Dinamis</th>
             </tr>
           </thead>
           <tbody className="bg-white text-gray-700 font-sans divide-y divide-gray-200">
             <tr>
-              <td className="px-6 py-4">Interaksi</td>
               <td className="px-6 py-4">Minim interaksi</td>
               <td className="px-6 py-4">Interaktif</td>
             </tr>
             <tr>
-              <td className="px-6 py-4">Database</td>
               <td className="px-6 py-4">Tidak punya database</td>
               <td className="px-6 py-4">Punya database</td>
             </tr>
             <tr>
-              <td className="px-6 py-4">Kemudahan update konten</td>
               <td className="px-6 py-4">Relatif sulit menambah konten baru</td>
               <td className="px-6 py-4">Mudah menambah konten baru</td>
             </tr>
             <tr>
-              <td className="px-6 py-4">Cocok untuk</td>
               <td className="px-6 py-4">Website yang jarang diperbarui (company profile)</td>
               <td className="px-6 py-4">Website yang sering diperbarui (e-commerce)</td>
             </tr>
             <tr>
-              <td className="px-6 py-4">Teknologi</td>
               <td className="px-6 py-4">HTML, CSS, JS</td>
               <td className="px-6 py-4">HTML, CSS, JS, MySQL, PHP</td>
             </tr>

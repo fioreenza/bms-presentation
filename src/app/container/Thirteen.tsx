@@ -5,17 +5,17 @@ export default function Thirteen() {
     <div className="h-full flex flex-col justify-center items-center px-10 space-y-6">
       <Title size="3xl">Cara Menulis CSS</Title>
 
-      <ul className="list-disc space-y-4 text-lg text-gray-700">
+      <ul className="list-disc space-y-4 text-xl text-gray-700">
         <li>
           <b>Inline CSS</b> → langsung di atribut elemen  
-          <pre className="bg-gray-900 text-green-200 p-3 rounded-lg text-[15px] mt-2 overflow-x-auto">
+          <pre className="bg-gray-900 text-green-200 p-3 rounded-lg text-lg mt-2 overflow-x-auto">
             <code>{`<p style="color: red;">Teks merah</p>`}</code>
           </pre>
         </li>
 
         <li>
           <b>Internal CSS</b> → dalam tag <code>{`<style>`}</code> di file HTML  
-          <pre className="bg-gray-900 text-green-200 p-3 rounded-lg text-[15px] mt-2 overflow-x-auto">
+          <pre className="bg-gray-900 text-green-200 p-3 rounded-lg text-lg mt-2 overflow-x-auto">
             <code>{`<style>
   p { color: blue; }
 </style>`}</code>
@@ -24,7 +24,7 @@ export default function Thirteen() {
 
         <li>
           <b>External CSS</b> → file terpisah <code>.css</code>  
-          <pre className="bg-gray-900 text-green-200 p-3 rounded-lg text-[15px] mt-2 overflow-x-auto">
+          <pre className="bg-gray-900 text-green-200 p-3 rounded-lg text-lg mt-2 overflow-x-auto">
             <code>{`<head>
     <title>Contoh External CSS</title>
     <link rel="stylesheet" href="style.css" />

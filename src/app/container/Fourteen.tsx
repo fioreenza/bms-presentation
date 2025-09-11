@@ -28,7 +28,7 @@ export default function Fourteen() {
 
       <div className="grid grid-cols-2 gap-6 w-full">
         {/* KODE */}
-        <pre className="bg-gray-900 text-green-200 p-4 rounded-xl text-sm overflow-x-auto">
+        <pre className="bg-gray-900 text-green-200 p-4 rounded-xl text-md overflow-x-auto">
           <code>{code}</code>
         </pre>
 

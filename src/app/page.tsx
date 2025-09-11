@@ -10,16 +10,19 @@ const PPTContainer = () => {
 
   const slides = [
     { type: 'one', title: 'Slide 1' },
+    { type: 'porto', title: 'Portfolio' },
     { type: 'two', title: 'Slide 2' },
     { type: 'three', title: 'Slide 3' },
     { type: 'four', title: 'Slide 4' },
-    { type: 'meme', title: 'Meme Slide' },
-    { type: 'meme2', title: 'Meme Slide 2' },
     { type: 'five', title: 'Slide 5' },
+    { type: 'meme', title: 'Meme Slide' },
+    { type: 'button', title: 'Button Slide' },
+    { type: 'meme2', title: 'Meme Slide 2' },
     { type: 'type', title: 'Type Slide' },
     { type: 'six', title: 'Slide 6' },
     { type: 'seven', title: 'Slide 7' },
     { type: 'eight', title: 'Slide 8' },
+    { type: 'forkrepo', title: 'Fork Repo' },
     { type: 'nine', title: 'Slide 9' },
     { type: 'ten', title: 'Slide 10' },
     { type: 'eleven', title: 'Slide 11' },
@@ -29,7 +32,12 @@ const PPTContainer = () => {
     { type: 'fifteen', title: 'Slide 15' },
     { type: 'eighteen', title: 'Slide 18' },
     { type: 'sixteen', title: 'Slide 16' },
-    { type: 'responsive', title: 'Responsive Design' },
+    { type: 'learntailwind', title: "Let's Learn Tailwind" },
+    { type: 'whytailwind', title: 'Why Tailwind' },
+    { type: 'tailwind1', title: 'Tailwind Slide' },
+    { type: 'tailwind2', title: 'Tailwind Slide 2' },
+    { type: 'tailwind3', title: 'Tailwind Slide 3' },
+    { type: 'handson', title: 'Hands On' },
     { type: 'seventeen', title: 'Slide 17' },
   ];
 
@@ -46,12 +54,12 @@ const PPTContainer = () => {
   const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
 
   return (
-    <div className="h-screen w-full relative overflow-hidden bg-gradient-to-br from-blue-200 to-white flex flex-col">
+    <div className="h-screen w-full relative overflow-hidden bg-gradient-to-br from-blue-300 to-blue-100 flex flex-col">
       <div className="absolute inset-0 z-1">
-        <DotGrid
+       <DotGrid
           dotSize={5}
           gap={20}
-          baseColor="#DBEAFE"
+          baseColor="#bfdbfe"
           activeColor="#3B82F6"
           proximity={120}
           shockRadius={200}
@@ -62,7 +70,7 @@ const PPTContainer = () => {
       </div>
       {/* Navbar */}
       <nav className=" px-16 py-6 flex items-center justify-between z-2">
-        <h1 className="text-xl font-sans font-semibold text-gray-800">Ristek HMIT</h1>
+        <h1 className="text-xl font-sans font-semibold text-gray-800">BMS</h1>
         <div className="flex items-center space-x-8">
           <Body size="md"> Home </Body>
           <Body size="md"> About </Body>

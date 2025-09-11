@@ -9,7 +9,7 @@ export default function One() {
     </Title>
     <div className="absolute -bottom-10">
     <Body size="xl">
-      IT Junior Preps 
+      Basic Media Schooling
     </Body>
     </div>
   </div>

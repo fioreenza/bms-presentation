@@ -40,9 +40,9 @@ export default function Eighteen() {
     <div className="h-full flex flex-col justify-center items-center px-10 space-y-6">
       <Title size="3xl">Padding vs Margin</Title>
 
-      <div className="grid grid-cols-2 gap-6 w-full h-[400px]">
+      <div className="flex gap-6 w-full  pb-20 h-[600px]">
         {/* KODE */}
-        <pre className="bg-gray-900 text-green-200 w-full p-4 rounded-xl text-sm overflow-x-auto">
+        <pre className="bg-gray-900 text-green-200 w-full p-4 rounded-xl text-lg overflow-y-auto">
           <code>{code}</code>
         </pre>
 

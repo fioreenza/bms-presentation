@@ -1,4 +1,3 @@
-import { Title } from "../component/Title";
 import Image from "next/image";
 
 export default function Type() {

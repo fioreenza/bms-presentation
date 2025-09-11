@@ -24,7 +24,7 @@ const code = `<h2>Data Mahasiswa</h2>
 
       <div className="flex gap-6 w-full h-fit">
         {/* KODE */}
-        <pre className="bg-gray-900 text-green-200 p-6 w-full rounded-xl text-[15px]">
+        <pre className="bg-gray-900 text-green-200 p-6 w-full rounded-xl text-lg">
           <code>{code}</code>
         </pre>
 
