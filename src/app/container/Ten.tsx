@@ -9,7 +9,7 @@ export default function Nine() {
 <h6>Sub Sub Sub Sub Sub Judul</h6>
 <p>Ini paragraf pertama saya.</p>
 <a href="https://example.com">Kunjungi Website</a>
-<img src="https://placehold.co/60x60" alt="Contoh" />
+<img src="https://placehold.co/60x60" alt="Contoh" width="300"/>
 <div> Ini adalah sebuah div. </div>
 <span> Ini adalah sebuah span. </span>
 `;

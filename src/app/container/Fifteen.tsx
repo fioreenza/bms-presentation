@@ -17,6 +17,7 @@ export default function Fifteen() {
       }
       .highlight {
         font-weight: bold;
+        background-color: aquamarine;
         border: 2px solid black;
         padding: 5px;
         border-radius: 5px;
